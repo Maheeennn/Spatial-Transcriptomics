@@ -30,7 +30,7 @@ This notebook demonstrates how to perform image-based spatial analysis of 10x Vi
 
 Squidpy is a Python library built on top of Scanpy and AnnData that provides tools for spatial omics analysis, including graph-based neighborhood analysis, spatial statistics, and image feature extraction. This tutorial specifically focuses on Squidpy's image analysis module (`squidpy.im`), which enables users to compute quantitative features from the tissue image and integrate them with the transcriptomic data stored in an `AnnData` object.
 
-The central hypothesis of this tutorial is that image-derived features — such as cell density, fluorescence intensity per channel, texture, and pixel intensity distributions — can recapitulate and even refine the biological structure captured by gene-expression clustering.
+The central hypothesis of this tutorial is that image-derived features — such as cell density, fluorescence intensity per channel, texture, and pixel intensity distributions can recapitulate and even refine the biological structure captured by gene-expression clustering.
 
 ---
 
