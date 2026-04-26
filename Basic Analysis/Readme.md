@@ -300,20 +300,6 @@ The notebook produces several important findings:
 
 ---
 
-## File Structure
-
-```
-.
-├── basic_analysis.ipynb        # Main notebook
-└── data/
-    ├── pnas.1912459116.sd15.xlsx   # MERFISH spatial coordinates
-    └── pnas.1912459116.sd12.csv    # MERFISH gene expression counts
-```
-
-The Visium dataset is downloaded automatically by Scanpy and cached locally when `sc.datasets.visium_sge` is first called.
-
----
-
 ## How to Run
 
 1. Install the required packages:
@@ -321,7 +307,7 @@ The Visium dataset is downloaded automatically by Scanpy and cached locally when
    pip install scanpy python-igraph openpyxl seaborn
    ```
 
-2. Download the MERFISH data files from the Xia et al. 2019 supplementary materials and place them in the `./data/` directory with the filenames shown above.
+2. Download the MERFISH data files from the Xia et al. 2019 supplementary materials 
 
 3. Open and run `basic_analysis.ipynb` sequentially from top to bottom. The Visium dataset will be downloaded automatically on first run.
 
